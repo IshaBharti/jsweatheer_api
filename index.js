@@ -18,12 +18,12 @@
                 var state_name=data.location.region
 
                 document.getElementById("city_name").innerHTML=" Weather updates of  :"+city_name
-                document.getElementById('getTemp').innerHTML ="Temprature F' : " + tempValue
-                document.getElementById('getStatus').innerHTML = "Contidion : " + statusValue
+                document.getElementById('getTemp').innerHTML ="Temperature F' : " + tempValue
+                document.getElementById('getStatus').innerHTML = "Condition : " + statusValue
                 document.getElementById('getTime').innerHTML =  "Last update : " + timeValue
-                document.getElementById('getFaran').innerHTML = "Temprature C':"+temp_faran
+                document.getElementById('getFaran').innerHTML = "Temperature C':"+temp_faran
                 
-                document.getElementById('state').innerHTML="state :"+state_name
+                document.getElementById('state').innerHTML="State :"+state_name
 
 
             })
