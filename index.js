@@ -7,7 +7,7 @@
 
         document.getElementById("demo").innerHTML = city;
         // console.log(x)  
-        fetch(`http://api.weatherapi.com/v1/current.json?key=c64de9b96f1a4bcfbb7103125213101&q=${city}`
+        fetch(`https://api.weatherapi.com/v1/current.json?key=bbd6eca869da4dfda12132512220501&q=${city}`
         ).then(response => response.json())
             .then(data => {console.log(data)
                 var tempValue = data.current.temp_f;
